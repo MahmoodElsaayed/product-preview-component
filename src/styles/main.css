@@ -28,11 +28,12 @@ body {
     min-height: 100vh;
     font: normal 1.4rem var(--primary-fonts);
     background-color: var(--cream);
-    padding: 20px;
+    padding: 0 20px;
 
     display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-rows: 1fr 50px;
 }
 
 p {
@@ -121,6 +122,15 @@ button {
 
 .preview-info .cart-btn img {
     width: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 625px) {
